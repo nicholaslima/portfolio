@@ -1,0 +1,37 @@
+:root {
+  --background: #fafafa;
+  --white: #ffff;
+  --black: #000000;
+  --gray: #444444;
+  --green: #0bffa9;
+  --green-gradient-one: #00ff87;
+  --green-gradient-two: #60efff;
+  --red-gradient-one: #ff0f7b;
+  --red-gradient-two: #f89b29;
+
+  --green-500: #00875f;
+  --green-300: #00b37e;
+
+  --red-500: #f75a68;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: Inter;
+}
+
+button {
+  cursor: pointer;
+}

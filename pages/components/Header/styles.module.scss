@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 75px;
+  background-color: var(--black);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0 auto;
+
+  height: 100%;
+  a {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--background);
+
+    text-decoration: none;
+  }
+}
+
+.gradient {
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    var(--green-gradient-one),
+    var(--green-gradient-two)
+  );
+}
