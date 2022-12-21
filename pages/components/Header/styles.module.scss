@@ -50,6 +50,7 @@
     position: absolute;
     right: 25px;
     top: 15px;
+    cursor: pointer;
   }
   /* fullscreen - background cumprido do menu em vertical*/
   .container.on {
@@ -103,5 +104,9 @@
 
     line-height: 2rem;
     display: block;
+    width: 20rem;
+    &:hover {
+      background-color: var(--gray);
+    }
   }
 }
