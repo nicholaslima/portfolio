@@ -1,8 +1,13 @@
 .container {
+  display: flex;
+  align-items: center;
+
   margin: 0 auto;
   width: 100%;
   height: 75px;
   background-color: var(--black);
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .navbar {
@@ -22,12 +27,81 @@
   }
 }
 
-.gradient {
-  width: 100%;
-  height: 10px;
-  background-image: linear-gradient(
-    to right,
-    var(--green-gradient-one),
-    var(--green-gradient-two)
-  );
+@media (max-width: 540px) {
+  .navbar {
+    display: none;
+  }
+  //cria as barras
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+  }
+  //bloco das barras
+  .menuToggle {
+    width: 40px;
+    height: 30px;
+
+    position: absolute;
+    right: 25px;
+    top: 15px;
+  }
+  /* fullscreen - background cumprido do menu em vertical*/
+  .container.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  //mostra os itens da nav
+  .container.on .navbar {
+    display: flex;
+
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  //posicionamento do menu toggle das barras hamburguer
+  .container.on .menuToggle {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+  }
+  //efeito x da barra 1
+  .container.on .menuToggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+  //efeito x da barra 2
+  .container.on .menuToggle .two {
+    opacity: 0;
+  }
+  //efeito x da barra 3
+  .container.on .menuToggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+  //elementos a lista nav em vertical
+  .container.on nav {
+    text-align: center;
+    display: block;
+  }
+  //estilo dos itens do menu
+  .container.on nav a {
+    transition-duration: 0.5s;
+
+    line-height: 2rem;
+    display: block;
+  }
 }
