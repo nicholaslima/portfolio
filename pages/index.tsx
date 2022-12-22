@@ -1,10 +1,12 @@
 import { Header } from "./components/Header";
+import { SocialLinks } from "./components/SocialLinks";
 import styles from "./styles.module.scss";
 
 export default function Home() {
   return (
     <>
       <Header />
+      <SocialLinks />
       <div className={styles.container}>
         <div className={styles.containerDesc}>
           <div className={styles.apresentation}>

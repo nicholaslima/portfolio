@@ -1,0 +1,22 @@
+.container {
+  position: fixed;
+  top: calc(50% - 93px);
+  right: 0px;
+
+  height: 186px;
+  width: 60px;
+  border-radius: 15px 0px 0px 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: var(--green);
+
+  svg {
+    cursor: pointer;
+    height: 20px;
+    color: var(--black);
+  }
+}
