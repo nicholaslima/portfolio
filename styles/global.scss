@@ -3,6 +3,7 @@
   --white: #ffff;
   --black: #000000;
   --gray: #444444;
+  --gray-300: #eaeaea;
   --green: #0bffa9;
   --green-500: #0afea8;
   --green-gradient-one: #00ff87;
@@ -45,4 +46,19 @@ html {
   @media (max-width: 720px) {
     font-size: 87.5%;
   }
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray);
+  margin-top: 16px;
+  line-height: 24px;
+  font-size: 1rem;
 }

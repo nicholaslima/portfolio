@@ -2,6 +2,7 @@
   width: 672px;
   margin: 0 auto;
 }
+
 .containerDesc {
   margin-top: 80px;
   display: flex;
@@ -16,6 +17,9 @@
       font-weight: 700;
       text-transform: capitalize;
     }
+    #myDescription {
+      margin-top: 36px;
+    }
     .role {
       font-size: 16px;
       color: var(--gray);
@@ -26,14 +30,7 @@
         font-weight: 700;
       }
     }
-    .myDescription {
-      font-size: 16px;
-      font-weight: 400;
-      color: var(--gray);
-      margin-top: 31px;
-      line-height: 24px;
-      font-size: 1rem;
-    }
+
     .btnCurriculo {
       background-color: var(--black);
       margin-left: auto;

@@ -1,0 +1,37 @@
+.container {
+  margin-top: 64px;
+
+  ul {
+    margin-bottom: 32px;
+    margin-top: 1rem;
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 53px;
+      border-bottom: 1px solid var(--gray-300);
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+
+      .links {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        svg {
+          color: var(--gray);
+        }
+      }
+    }
+  }
+  .btnSeeAllProjects {
+    display: flex;
+    gap: 10px;
+    color: var(--gray);
+    font-size: 1rem;
+    align-items: center;
+  }
+}

@@ -21,7 +21,6 @@ export function Header() {
         </div>
 
         <nav className={styles.navbar}>
-          <Link href="/">blog</Link>
           <Link href="/">sobre min</Link>
           <Link href="/">blog</Link>
           <Link href="/">projetos</Link>
