@@ -2,6 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { DiGithubAlt } from "react-icons/di";
 import { AiOutlineLink } from "react-icons/ai";
 import styles from "./styles.module.scss";
+import Link from "next/link";
 
 export function Contributions() {
   return (
@@ -16,34 +17,51 @@ export function Contributions() {
         <li>
           <p>projeto criado</p>
           <div className={styles.links}>
-            <DiGithubAlt size={20} />
-            <AiOutlineLink size={20} />
+            <Link href="" target="_blank">
+              <DiGithubAlt size={20} />
+            </Link>
+            <Link href="" target="_blank">
+              <AiOutlineLink size={20} />
+            </Link>
           </div>
         </li>
         <li>
           <p>projeto criado</p>
           <div className={styles.links}>
-            <DiGithubAlt size={20} />
-            <AiOutlineLink size={20} />
+            <Link href="" target="_blank">
+              <DiGithubAlt size={20} />
+            </Link>
+            <Link href="" target="_blank">
+              <AiOutlineLink size={20} />
+            </Link>
           </div>
         </li>
         <li>
           <p>projeto criado</p>
           <div className={styles.links}>
-            <DiGithubAlt size={20} />
-            <AiOutlineLink size={20} />
+            <Link href="" target="_blank">
+              <DiGithubAlt size={20} />
+            </Link>
+            <Link href="" target="_blank">
+              <AiOutlineLink size={20} />
+            </Link>
           </div>
         </li>
         <li>
           <p>projeto criado</p>
           <div className={styles.links}>
-            <DiGithubAlt size={20} />
-            <AiOutlineLink size={20} />
+            <Link href="" target="_blank">
+              <DiGithubAlt size={20} />
+            </Link>
+            <Link href="" target="_blank">
+              <AiOutlineLink size={20} />
+            </Link>
           </div>
         </li>
       </ul>
       <div className={styles.btnSeeAllProjects}>
-        veja todos <BsArrowRight size={20} />
+        veja todos projetos
+        <BsArrowRight size={20} />
       </div>
     </div>
   );
