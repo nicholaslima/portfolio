@@ -54,11 +54,17 @@ html {
   text-transform: capitalize;
 }
 
+.subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
 .description {
   font-size: 16px;
   font-weight: 400;
   color: var(--gray);
-  margin-top: 16px;
+
   line-height: 24px;
   font-size: 1rem;
 }

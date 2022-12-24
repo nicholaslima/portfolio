@@ -1,7 +1,9 @@
-import { Contributions } from "./components/Contributions";
+import { LastProjects } from "./components/LastProjects";
 import { Header } from "./components/Header";
 import { SocialLinks } from "./components/SocialLinks";
 import styles from "./styles.module.scss";
+import { Contributions } from "./components/Contributions";
+import { Experiences } from "./components/Experiences";
 
 export default function Home() {
   return (
@@ -24,8 +26,9 @@ export default function Home() {
 
           <img src="http://github.com/nicholaslima.png" alt="minha foto" />
         </div>
-
+        <Experiences />
         <Contributions />
+        <LastProjects />
       </div>
     </>
   );

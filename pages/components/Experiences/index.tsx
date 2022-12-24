@@ -1,9 +1,9 @@
 import styles from "./styles.module.scss";
 
-export function Contributions() {
+export function Experiences() {
   return (
     <div className={styles.container}>
-      <h1 className="title">minhas contribuições</h1>
+      <h1 className="title">Experiencias relevantes</h1>
       <p className="description" id={styles.descriptionContribution}>
         Veja Minhas ultimas contribuições para comunidade de programação, e
         minhas ultimas atividades relevantes.
