@@ -1,0 +1,110 @@
+.container {
+  width: 990px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+  }
+
+  #descriptionProjects {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .fieldSearch {
+    border-radius: 2px;
+    margin-left: calc(50% - 110px);
+    border: 1px solid var(--gray);
+    width: 260px;
+    margin-bottom: 2rem;
+    font-size: 20px;
+  }
+
+  .Projects {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    .itemProject {
+      border-radius: 7px;
+      background-color: var(--gray-300);
+      border: 1px solid var(--gray);
+      img {
+        border-radius: 7px;
+        width: 100%;
+        object-fit: cover;
+        height: 150px;
+      }
+
+      .nameProject {
+        padding-left: 10px;
+        margin-top: 10px;
+      }
+
+      .main {
+        padding-right: 13px;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        #descProject {
+          overflow: hidden;
+          text-overflow: ellipses;
+          padding-right: 10px;
+          padding-left: 10px;
+          width: 520px;
+          height: 70px;
+          font-size: 14px;
+          line-height: 22px;
+          font-weight: 600;
+          color: var(--gray);
+          margin: 0 auto;
+          margin-top: 7px;
+          margin-bottom: 15px;
+        }
+
+        .tecnologiesList {
+          display: grid;
+          gap: 16px;
+          grid-template-columns: auto auto auto auto;
+          .itemTecnologie {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            svg {
+              font-size: 20px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        .links {
+          display: flex;
+          align-items: center;
+          gap: 18px;
+          svg {
+            font-size: 25px;
+          }
+        }
+
+        .date {
+          color: var(--gray);
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

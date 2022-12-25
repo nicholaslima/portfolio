@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "./styles.module.scss";
-import { BsMoonFill, BsAlarmFill } from "react-icons/bs";
 import { useState } from "react";
 
 export function Header() {
@@ -22,8 +21,8 @@ export function Header() {
 
         <nav className={styles.navbar}>
           <Link href="/">sobre min</Link>
-          <Link href="/">blog</Link>
-          <Link href="/">projetos</Link>
+          <Link href="/blog">blog</Link>
+          <Link href="/projects">projetos</Link>
         </nav>
       </div>
     </>
