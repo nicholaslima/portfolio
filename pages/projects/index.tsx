@@ -40,7 +40,7 @@ export default function Projects() {
               </div>
             </div>
             <div className={styles.footer}>
-              <p className={styles.date}>22/05/2022</p>
+              <p className="date">22/05/2022</p>
               <div className={styles.links}>
                 <BsGithub />
                 <AiOutlineLink />
@@ -72,7 +72,7 @@ export default function Projects() {
               </div>
             </div>
             <div className={styles.footer}>
-              <p className={styles.date}>22/05/2022</p>
+              <p className="date">22/05/2022</p>
               <div className={styles.links}>
                 <BsGithub />
                 <AiOutlineLink />
@@ -103,7 +103,7 @@ export default function Projects() {
               </div>
             </div>
             <div className={styles.footer}>
-              <p className={styles.date}>22/05/2022</p>
+              <p className="date">22/05/2022</p>
               <div className={styles.links}>
                 <BsGithub />
                 <AiOutlineLink />
@@ -134,7 +134,7 @@ export default function Projects() {
               </div>
             </div>
             <div className={styles.footer}>
-              <p className={styles.date}>22/05/2022</p>
+              <p className="date">22/05/2022</p>
               <div className={styles.links}>
                 <BsGithub />
                 <AiOutlineLink />
